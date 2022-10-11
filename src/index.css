@@ -9,5 +9,31 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+   monospace;
 }
+.head{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:calc(12px + 5.5vw);
+  margin-top: 3rem;
+}
+.para{
+  font-size: 3vw;
+  background-color:green;
+  max-width: 30vw;
+  margin-left: 2rem;
+  border-radius: 25px;
+
+}
+.col2{
+  margin-top: 3rem;
+}
+.button{
+  padding: 35px 95px;
+  background-color: #ff5757;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+  margin-top: 100px;
+ 
+}
+
