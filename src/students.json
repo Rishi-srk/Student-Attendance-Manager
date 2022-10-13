@@ -1,0 +1,47 @@
+{
+    "students":[
+        {
+            "rno":"20071A3201",
+             "name": "Sneha Aerpula",
+             "class": "CSBS",
+             "dob": "02-03-2002",
+             "phno": "9834121615",
+             "address": "Kukatpally"
+
+        },
+        {
+            "rno":"20071A3210",
+             "name": "Sumanth Kishore",
+             "class": "CSBS",
+             "dob": "02-03-2002",
+             "phno": "9834121615",
+            "address": "Kukatpally"
+        }
+        ,{
+            "rno":"20071A3213",
+             "name": "Gayatri Deshmukh",
+             "class": "CSBS",
+             "dob": "02-03-2002",
+             "phno": "8801401132",
+             "address": "Madhapur"
+
+        },
+        {
+            "rno":"20071A3219",
+             "name": "Sarayu Kattubadi",
+             "class": "CSBS",
+             "dob": "02-03-2002",
+             "phno": "8241361219",
+             "address": "Jubilee Hills"
+
+        }
+        ,{
+            "rno":"20071A3224",
+            "name": "Sai Rohith Yadav",
+            "class": "CSBS",
+            "dob": "02-03-2002",
+            "phno": "9666125348",
+            "address": "Banjara Hills"
+        }
+    ]
+}
