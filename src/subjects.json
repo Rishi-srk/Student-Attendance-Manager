@@ -1,0 +1,49 @@
+{
+    "subjects":[
+        {
+            "subid":"19PC1CB07",
+            "sname":"DBMS",
+            "fname":"C Kiran Mai ",
+            "dept":"CSE"
+        },
+        {
+            "subid":"19PC1CB06",
+            "sname":"Operating Systems",
+            "fname":"RavindraKumar ",
+            "dept":"CSE"
+        }
+        ,{
+            "subid":"19ES1ME10",
+            "sname":"Operational Research",
+            "fname":"Durga Sahithi ",
+            "dept":"MECH"
+
+        }
+    ],
+    "total_attendance":[
+        {
+            "subid":"19PC1CB07",
+            "sname":"DBMS",
+            "March":"11",
+            "April":"7",
+            "May":"8"
+        }
+        ,{
+            "subid":"19PC1CB07",
+            "sname":"DBMS",
+            "March":"11",
+            "April":"9",
+            "May":"10"
+        },
+        {
+            "subid":"19PC1CB07",
+            "sname":"DBMS",
+            "March":"11",
+            "April":"8",
+            "May":"11"
+        }
+    ]
+    
+
+
+}

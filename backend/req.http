@@ -1,0 +1,132 @@
+GET http://localhost:5000/getstudent
+
+###
+
+POST http://localhost:5000/addstudent 
+Content-Type: application/json
+
+{
+    "rollno":"20071A3251",
+    "name":"xyz ",
+    "branch":"IT",
+    "dob":"04-02-2003",
+    "mobile":"9391257132",
+    "address":"Film Nagar",
+    "medicalproof":"Y"
+}
+
+###
+POST http://localhost:5000/addsubject
+Content-Type: application/json
+
+{
+    "Subid":"19PC1CB07",
+    "Subname":"DBMS",
+    "Faculty":"C Kiran Mai",
+    "fid":"16261",
+    "dept":"CSE"
+}
+
+###
+POST http://localhost:5000/attendance
+Content-Type: application/json
+
+{
+    "dbms":10,
+    "os":10,
+    "or":10
+}
+###
+POST http://localhost:5000/getMedicalList 
+Content-Type: application/json
+
+{
+    "email":"rishikumarsrikotisrk@gmail.com"
+}
+
+###
+PUT http://localhost:5000/editStudent
+Content-Type: application/json
+
+{
+    "rollno":"20071A3201",
+    "name":"Sneha Aerpu",
+    "branch":"CSB",
+    "dob":"02-03-2003",
+    "mobile":"9834121615",
+    "address":"Kukatpally",
+    "medicalproof":"N"
+}
+###
+GET http://localhost:5000/getsubject
+
+###
+POST http://localhost:5000/studentattendance
+Content-Type: application/json
+
+{
+    "rollno":"20071A3238",
+    "dbms":7,
+    "os":7,
+    "or":5
+}
+###
+POST  http://localhost:5000/getattendance
+Content-Type: application/json
+
+{
+    "email":"theddukuldeep@gmail.com"
+}
+ 
+###
+PUT http://localhost:5000/updateattendance
+Content-Type: application/json
+
+{
+    "rno":"20071A3238",
+    "dbms":3,
+    "os":3,
+    "or":3
+}
+###
+POST http://localhost:5000/getbelow65
+Content-Type: application/json
+
+{
+    "email":"theddukuldeep@gmail.com"
+}
+
+###
+POST http://localhost:5000/insertFaculty
+Content-Type: application/json
+
+{
+    "name":"Sarath",
+    "class":"CSE",
+    "mail":"theddukuldeep@gmail.com"
+}
+
+###
+GET http://localhost:5000/getfaculty
+
+###
+POST http://localhost:5000/getsectio
+Content-Type: application/json
+
+{
+    "email":"theddukuldeep@gmail.com"
+}
+
+###
+POST  http://localhost:5000/addattendance 
+Content-Type: application/json
+
+{
+    "subject":"or",
+    "rollno":["20071A3201","6023457"]
+}
+###
+GET http://localhost:5000/getstudentscsbs
+
+###
+GET http://localhost:5000/getstudentscse

@@ -4,23 +4,24 @@ import { useNavigate } from 'react-router-dom';
 import '../App.css';
 import { BsFillPersonFill } from 'react-icons/bs';
 import './Hompage.css';
+import img from './images/img.svg';
 function Homepage() {
     const navigate = useNavigate();
     let handleClick = () => {
-        navigate('/main')
+        navigate('/login')
     }
 
     return (
         <div className='main' >
-            <div className='row  mt-5' >
-                <div className='col-sm-8 mx-auto text-center'>
-                    <h1 className='text-center head'>Student Database Manager</h1>
-                    <p className='para  text-white'> Created By Team 11</p>
+            <div className='row ' >
+                <div className='col-sm-8 mx-auto text-center mt-5'>
+                    <h1 className='text-center head mb-2'>Student Attendance Database Manager</h1>
+                <img src={img} height={250}/>
                 </div>
                 <div className='col-sm-4 '>
-                    <p className='col2'>Faculty</p>
+                    <p className='col2 mt-5 h5 pt-5'>Class Co-ordinator</p>
                     <BsFillPersonFill size={250}/><br></br>
-                    <button className='button text-white' onClick={handleClick}>Login</button>
+                    <button className=' button ' onClick={handleClick}>Login</button>
                 </div>
             </div>
 
