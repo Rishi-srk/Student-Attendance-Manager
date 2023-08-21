@@ -33,16 +33,7 @@ function Login() {
             
 
         }).catch(err => alert(err.message))
-        // await get(child(db,"YbULHk4o8bhTPncZkWhLE4fTIk1")).then((val)=>{
-        //   if(val.exists()){
-        //     console.log(val.name)
-        //   }
-        //   else{
-        //     console.log('no')
-        //   }
-
-        //   console.log(val)
-        // }).catch(err=>console.log(err))
+       
         const docRef = doc(db, "users", user?.uid);
         const docSnap = await getDoc(docRef);
 
