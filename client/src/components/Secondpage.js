@@ -8,8 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faBell, faCartArrowDown, faHeart, faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import jsondata from '../students.json';
-import subjectdata from '../subjects.json';
+
 import axios from 'axios';
 import { async } from '@firebase/util';
 import { auth, db } from '../Firebase';
@@ -31,20 +30,13 @@ function Secondpage() {
     let [section,setSection]=useState()
     let [val,setVal]=useState()
     const navigate=useNavigate()
-    // let getbranch= async()=>{
-    //     let y=await val.find(function (element) {
-    //         return element.mail == user.email;
-    //     })
-    //     console.log(y)
-    //     setSection(y.class)
-    //     console.log(section)
-    // } 
+    
 
     useEffect(() => {
         
         getData()
         
-        // facultyfun();
+        
         
         
     }, [])

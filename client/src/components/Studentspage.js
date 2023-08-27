@@ -179,9 +179,7 @@ function StudentsPage(){
                     </div> : <div> </div>
                 }
 
-
-
-                </div>
+            </div>
 
 
     </div>)
